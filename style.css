@@ -1,0 +1,32 @@
+p {
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  width: 200px;
+  margin: 5px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+}
+
+.red-block {
+  background-color: red;
+}
+
+.yellow-block {
+  background-color: yellow;
+}
+
+.blue-block {
+  background-color: blue;
+}
+
+.green-block {
+  background-color: green;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Blocks</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="vendor/jquery.js"></script>
+    <script type="text/javascript" src="client.js"></script>
+  </head>
+  <body>
+    <p>Red: <span id="redCount">0</span></p>
+    <p>Yellow: <span id="yellowCount">0</span></p>
+    <p>Blue:<span id="blueCount">0</span></p>
+    <p>Green: <span id="greenCount">0</span></p>
+    <!-- Container for the buttons -->
+    <div id="buttons">
+      <button data-cat='red' id="redButton">Add Red Block</button>
+      <br>
+      <button data-cat='yellow' id="yellowButton">Add Yellow Block</button>
+      <br>
+      <button data-cat='blue' id="blueButton">Add Blue Block</button>
+      <br>
+      <button data-cat='green' id="greenButton">Add Green Block</button>
+    </div>
+    <!-- Container for the blocks -->
+    <div id="blockContainer">
+      <!-- Blocks will be appended here -->
+    </div>
+  </body>
+</html>
