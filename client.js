@@ -13,7 +13,8 @@ $(document).ready(function() {
 
   // Optimized code
 
-  $('#buttons').on('click', 'button', function(){
+  $('.nav-container').on('click', 'button', function(){
+    console.log('i got here');
     // Using 'cat' as an example, this varible can have any name.
     var color = $(this).data('cat');
     // Add data-color and color class to the block

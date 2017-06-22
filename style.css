@@ -1,3 +1,12 @@
+
+/* Comma (,) applies styles to both html & body tags */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
 p {
   font-size: 20px;
 }
@@ -8,11 +17,39 @@ button {
   margin: 5px;
 }
 
+#blockContainer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.counters {
+  max-width:960px;
+  margin: 0 auto;
+  padding-top:20px;
+  text-align: center;
+  background-color: Gainsboro;
+  height: 50px;
+}
+
+.counters>span {
+  width: 180px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+.counters span {
+  font-size: 20px;
+  text-align: center;
+}
+/* BLOCKS */
 .block {
-  width: 100px;
   height: 100px;
+  width: 100px;
   float: left;
-  margin: 5px;
+  margin: 10px;
 }
 
 .red-block {
@@ -29,4 +66,79 @@ button {
 
 .green-block {
   background-color: green;
+}
+
+h1 {
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: darkslategray;
+}
+
+/* header is an HTML5 element */
+header {
+  background-color: lightseagreen;
+  text-align: center;
+  padding: 5px;
+}
+
+nav {
+  background-color: darkcyan;
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  /* This centers the navigation. */
+  text-align: center;
+}
+
+/* All spans that are underneath the nav */
+nav span {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+/* Flow to bottom */
+footer {
+  background-color: salmon;
+  color: darkred;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.nav-container {
+  display: inline;
+}
+
+.container {
+  max-width:900px;
+  margin: 0 auto;
+}
+
+.topContent {
+  background-color: snow;
+  height: 300px;
+}
+
+.middleContent {
+  background-color: snow;
+  text-align: center;
+}
+
+.bottomContent {
+  background-color: snow;
+  height: 700px;
 }
